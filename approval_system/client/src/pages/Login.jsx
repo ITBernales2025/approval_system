@@ -49,7 +49,6 @@ export const Login = () => {
       setRequired(false)
       try {
         const res = await login({username,password})
-        console.log(res)
         if(!res?.error) {
             dispatch(setCredentials({...res?.data}))
             if(res?.data.type === "ADMIN" && window.innerWidth > 1023) {
