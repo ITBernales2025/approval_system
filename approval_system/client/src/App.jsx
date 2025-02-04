@@ -5,7 +5,7 @@ import { Dashboard } from "./pages/RequestorRoute/Dashboard";
 import { RequestorRoute } from "./pages/routes/RequestorRoute";
 import {AdminRoute} from "./pages/routes/AdminRoute";
 import { ApproverRoute } from "./pages/routes/ApproverRoute";
-import { AdminDashboard } from "./pages/AdminRoute/AdminDashBoard";
+import { AdminDashboard } from "./pages/AdminRoute/AdminDashboard";
 import { ApproverDashboard } from "./pages/ApproverRoute/ApproverDashboard";
 import NotFound from "./pages/NotFound";
 import { Accounts } from "./pages/AdminRoute/Accounts";
